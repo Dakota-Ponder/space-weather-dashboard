@@ -15,7 +15,7 @@ Space Weather Monitor is a web application designed to provide users with up-to-
 
 To set up the development environment for Space Weather Monitor, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/space-weather-monitor.git`
+1. Clone the repository: `git clone `
 2. Install Node.js (if not already installed): [Node.js Downloads](https://nodejs.org/en/download/)
 3. Navigate to the project directory and install dependencies: `cd space-weather-monitor` and `npm install`
 4. Start the development server: `npm run dev` (or `npm start` for the production server)

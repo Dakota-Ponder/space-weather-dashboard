@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Space Weather Monitor</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
-    
-       
-
-</head>
-<header>Current Space Weather
-    <nav>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Current Space Weather</h1>
+      <nav>
         <ul>
-            <li class="dropdown">
-                <a href="#">Space Weather</a>
-                <div class="dropdown-content">
-                    <ul>
-                        <li>Geomagnetic Storms</li>
-                        <li>Radiation Storms</li>
-                        <li>Solar Flares</li>
-                    </ul>
-                </div>
-            </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Geomagnetic Storms</a></li>
+          <li><a href="#">Radiation Storms</a></li>
+          <li><a href="#">Solar Flares</a></li>
         </ul>
-    </nav>
-</header>
-<body>
-    <div id="root"></div>
-    <script src="/js/bundle.js"></script>
-</body
+      </nav>
+    </header>
+    <main>
+      <section id="geomagnetic-storms">
+        <h2>Geomagnetic Storms</h2>
+        <!-- Add content for geomagnetic storms here -->
+      </section>
+      <section id="radiation-storms">
+        <h2>Radiation Storms</h2>
+        <!-- Add content for radiation storms here -->
+      </section>
+      <section id="solar-flares">
+        <h2>Solar Flares</h2>
+        <!-- Add content for solar flares here -->
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Space Weather Monitor. All rights reserved.</p>
+    </footer>
+  </body>
 </html>

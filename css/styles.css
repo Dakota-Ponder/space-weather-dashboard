@@ -1,21 +1,32 @@
-header {
-    font-family: 'Orbitron', sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-body{
+/* General styles */
+body {
     margin: 0;
     font-family: 'Orbitron', sans-serif;
-    background-image: url('images/space-background.jpg');
+    background-image: url('../images/stars.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
 nav ul {
     display: flex;
     list-style-type: none;
@@ -25,4 +36,38 @@ nav ul {
 
 nav ul li {
     margin-left: 15px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main content styles */
+main {
+    flex-grow: 1;
+    margin: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Cool feature: glowing text */
+h2 {
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+}
+
+/* Footer styles */
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
